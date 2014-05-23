@@ -18,9 +18,22 @@ WriteMakefile(
         'Test::More' => 0,
     },
     PREREQ_PM => {
-        #'ABC'              => 1.6,
-        #'Foo::Bar::Module' => 5.0401,
+        'Test::More' => 0,
+        'Dancer'     => 1.3099,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Dancer-Logger-Hourlyfile-*' },
+    META_MERGE => {
+        resources => {
+            repository => 'https://github.com/jck000/Dancer-Logger-Hourlyfiles',
+            bugtracker => 'https://github.com/jck000/Dancer-Logger-Hourlyfiles/issues',
+            homepage   => 'https://github.com/jck000/Dancer-Logger-Hourlyfiles/',
+        },
+    },
 );
+
+
+
+
+
+
