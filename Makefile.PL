@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME             => 'Dancer::Logger::Hourlyfile',
-    AUTHOR           => q{Jack "Hagop" Bilemjian <jck000@gmail.com>},
+    AUTHOR           => q{Hagop "Jack" Bilemjian <jck000@gmail.com>},
     VERSION_FROM     => 'lib/Dancer/Logger/Hourlyfile.pm',
     ABSTRACT_FROM    => 'lib/Dancer/Logger/Hourlyfile.pm',
     LICENSE          => 'Artistic_2_0',
@@ -25,9 +25,9 @@ WriteMakefile(
     clean => { FILES => 'Dancer-Logger-Hourlyfile-*' },
     META_MERGE => {
         resources => {
-            repository => 'https://github.com/jck000/Dancer-Logger-Hourlyfiles',
-            bugtracker => 'https://github.com/jck000/Dancer-Logger-Hourlyfiles/issues',
-            homepage   => 'https://github.com/jck000/Dancer-Logger-Hourlyfiles/',
+            repository => 'https://github.com/jck000/Dancer-Logger-Hourlyfile',
+            bugtracker => 'https://github.com/jck000/Dancer-Logger-Hourlyfile/issues',
+            homepage   => 'https://github.com/jck000/Dancer-Logger-Hourlyfile/',
         },
     },
 );
