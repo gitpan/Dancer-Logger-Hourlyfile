@@ -18,3 +18,4 @@ Dancer-Logger-Hourlyfile-*
 Dancer-Logger-Hourlyfile-*.tar.gz
 *.txt
 *.sh
+*.bak

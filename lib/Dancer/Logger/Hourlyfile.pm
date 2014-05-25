@@ -11,7 +11,7 @@ use IO::File;
 use File::Path qw(make_path);
 use POSIX qw/strftime/;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 sub init {
   my $self = shift;
@@ -192,7 +192,7 @@ In your Dancer's environment file set the following:
 
 =head1 AUTHOR
 
-Jack "Hagop" Bilemjian, C<< <jck000 at gmail.com> >>
+Hagop "Jack" Bilemjian, C<< <jck000 at gmail.com> >>
 
 
 =head1 BUGS

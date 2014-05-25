@@ -26,4 +26,4 @@ resources:
   bugtracker: https://github.com/jck000/Dancer-Logger-Hourlyfile/issues
   homepage: https://github.com/jck000/Dancer-Logger-Hourlyfile/
   repository: https://github.com/jck000/Dancer-Logger-Hourlyfile
-version: 0.05
+version: 0.06
